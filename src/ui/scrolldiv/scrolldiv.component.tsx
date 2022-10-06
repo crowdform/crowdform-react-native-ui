@@ -12,7 +12,7 @@ import { useDefaultProps } from '../../utilities/useDefaultProps';
 const ScrollDiv: React.FunctionComponent<ScrollDivProps> = (incomingProps) => {
   const props = useDefaultProps('ScrollDiv', incomingProps, {
     bg: 'transparent',
-    flexDir: 'column',
+    flexDirection: 'column',
     flexWrap: 'nowrap',
     rounded: 'none',
     shadow: 0,
@@ -38,7 +38,7 @@ const ScrollDiv: React.FunctionComponent<ScrollDivProps> = (incomingProps) => {
     minW,
     position,
     style,
-    flexDir,
+    flexDirection,
     rounded,
     roundedTop,
     roundedRight,
@@ -90,7 +90,7 @@ const ScrollDiv: React.FunctionComponent<ScrollDivProps> = (incomingProps) => {
 
 // ScrollDiv.defaultProps = {
 //   bg: 'transparent',
-//   flexDir: 'column',
+//   flexDirection: 'column',
 //   flexWrap: 'nowrap',
 //   rounded: 'none',
 //   shadow: 0,

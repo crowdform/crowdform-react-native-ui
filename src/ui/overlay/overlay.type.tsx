@@ -22,7 +22,7 @@ export interface OverlayProps
     Pick<DimensionPropsType, 'w' | 'h' | 'minH' | 'minW'>,
     Pick<
       FlexPropsType,
-      'flex' | 'justifyContent' | 'alignItems' | 'flexDir' | 'flexWrap'
+      'flex' | 'justifyContent' | 'alignItems' | 'flexDirection' | 'flexWrap'
     >,
     Pick<BackgroundPropsType, 'bg'>,
     VariantPropsType {

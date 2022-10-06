@@ -22,7 +22,7 @@ export const getStyle = (theme: ThemeType, props: DivProps) => {
   const computedStyle: any = {};
 
   computedStyle.div = {
-    flexDirection: props.row ? 'row' : props.flexDir,
+    flexDirection: props.row ? 'row' : props.flexDirection,
     flexWrap: props.flexWrap,
     alignItems: props.alignItems,
     justifyContent: props.justifyContent,

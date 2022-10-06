@@ -64,7 +64,7 @@ const Dropdown = React.forwardRef<DropdownRef, DropdownProps>(
       showSwipeIndicator,
       children,
       backdropColor,
-      flexDir,
+      flexDirection,
       flexWrap,
       isVisible,
       onBackdropPress,

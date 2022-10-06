@@ -37,7 +37,7 @@ export const getStyle = (theme: ThemeType, props: SnackbarProps) => {
   };
 
   computedStyle.container = {
-    flexDirection: props.flexDir,
+    flexDirection: props.flexDirection,
     justifyContent: props.justifyContent,
     alignItems: props.justifyContent,
     alignSelf: props.alignSelf,

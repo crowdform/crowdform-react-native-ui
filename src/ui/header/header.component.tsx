@@ -14,7 +14,7 @@ const Header: React.FunctionComponent<HeaderProps> = (incomingProps) => {
     p: 'lg',
     bg: 'white',
     rounded: 'none',
-    flexDir: 'row',
+    flexDirection: 'row',
     shadow: 'sm',
     shadowColor: 'gray900',
     position: 'relative',

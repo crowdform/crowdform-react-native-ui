@@ -42,7 +42,7 @@ const Radio: CompoundedRadio<RadioProps> = (incomingProps) => {
     justifyContent: 'center',
     alignSelf: 'flex-start',
     onPress: () => {},
-    flexDir: 'row',
+    flexDirection: 'row',
   });
 
   const {
@@ -292,7 +292,7 @@ const Radio: CompoundedRadio<RadioProps> = (incomingProps) => {
 //   justifyContent: 'center',
 //   alignSelf: 'flex-start',
 //   onPress: () => {},
-//   flexDir: 'row',
+//   flexDirection: 'row',
 // };
 
 // passing RadioGroup as part of Radio

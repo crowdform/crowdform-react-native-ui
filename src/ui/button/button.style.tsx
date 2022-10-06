@@ -52,7 +52,7 @@ export const getStyle = (theme: ThemeType, props: ButtonProps) => {
   };
 
   computedStyle.container = {
-    flexDirection: props.flexDir,
+    flexDirection: props.flexDirection,
     alignItems: props.alignItems,
     justifyContent: props.justifyContent,
     position: 'relative',

@@ -12,7 +12,7 @@ import { useDefaultProps } from '../../utilities/useDefaultProps';
 const Div: React.FunctionComponent<DivProps> = (incomingProps) => {
   const props = useDefaultProps('Div', incomingProps, {
     bg: 'transparent',
-    flexDir: 'column',
+    flexDirection: 'column',
     flexWrap: 'nowrap',
     rounded: 'none',
     shadow: 'none',
@@ -44,7 +44,7 @@ const Div: React.FunctionComponent<DivProps> = (incomingProps) => {
     maxH,
     position,
     style,
-    flexDir,
+    flexDirection,
     row,
     rounded,
     roundedTop,
@@ -107,7 +107,7 @@ const Div: React.FunctionComponent<DivProps> = (incomingProps) => {
 
 // Div.defaultProps = {
 //   bg: 'transparent',
-//   flexDir: 'column',
+//   flexDirection: 'column',
 //   flexWrap: 'nowrap',
 //   rounded: 'none',
 //   shadow: 'none',

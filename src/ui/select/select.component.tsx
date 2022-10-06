@@ -21,7 +21,7 @@ const Select = React.forwardRef<SelectRef, SelectProps>(
     const props = useDefaultProps('Select', incomingProps, {
       bg: 'white',
       rounded: 'none',
-      flexDir: 'column',
+      flexDirection: 'column',
       isVisible: false,
       renderNoResultsView: (searchTerm) => (
         <Div flex={1} px="2xl" py="xl">
@@ -327,7 +327,7 @@ const Select = React.forwardRef<SelectRef, SelectProps>(
 // Select.defaultProps = {
 //   bg: 'white',
 //   rounded: 'none',
-//   flexDir: 'column',
+//   flexDirection: 'column',
 //   isVisible: false,
 //   // mb: 'xl',
 //   // @ts-ignore

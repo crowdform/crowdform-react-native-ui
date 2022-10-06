@@ -44,7 +44,7 @@ const Animated: React.FunctionComponent<AnimatedProps> = (incomingProps) => {
     minW,
     position,
     style,
-    flexDir,
+    flexDirection,
     rounded,
     roundedTop,
     roundedRight,

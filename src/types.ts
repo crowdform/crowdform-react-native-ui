@@ -151,7 +151,7 @@ export interface DimensionPropsType {
 export const flexProps = [
   'row',
   'flex',
-  'flexDir',
+  'flexDirection',
   'flexWrap',
   'justifyContent',
   'alignSelf',
@@ -160,7 +160,7 @@ export const flexProps = [
 export interface FlexPropsType {
   row?: boolean;
   flex?: number;
-  flexDir?: 'row' | 'column' | 'row-reverse' | 'column-reverse';
+  flexDirection?: 'row' | 'column' | 'row-reverse' | 'column-reverse';
   flexWrap?: 'wrap' | 'nowrap' | 'wrap-reverse';
   justifyContent?:
     | 'flex-start'

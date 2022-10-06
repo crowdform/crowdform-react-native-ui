@@ -43,7 +43,7 @@ export const getStyle = (theme: ThemeType, props: DropdownProps) => {
 
   computedStyle.options = {
     flexWrap: props.flexWrap,
-    flexDirection: props.flexDir,
+    flexDirection: props.flexDirection,
     alignItems: props.alignItems,
     justifyContent: props.justifyContent,
   };

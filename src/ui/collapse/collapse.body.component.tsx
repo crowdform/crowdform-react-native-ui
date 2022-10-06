@@ -12,7 +12,7 @@ const CollapseBody: React.FunctionComponent<CollapseBodyProps> = (
   const props = useDefaultProps('CollapseBody', incomingProps, {
     bg: 'transparent',
     p: 'xl',
-    flexDir: 'column',
+    flexDirection: 'column',
     flexWrap: 'nowrap',
     rounded: 'none',
     shadow: 'none',
@@ -71,7 +71,7 @@ const CollapseBody: React.FunctionComponent<CollapseBodyProps> = (
 // CollapseBody.defaultProps = {
 //   bg: 'transparent',
 //   p: 'xl',
-//   flexDir: 'column',
+//   flexDirection: 'column',
 //   flexWrap: 'nowrap',
 //   rounded: 'none',
 //   shadow: 'none',

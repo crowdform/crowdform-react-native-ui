@@ -34,7 +34,7 @@ export interface DropdownProps
     Pick<BackgroundPropsType, 'bg'>,
     Pick<
       FlexPropsType,
-      'justifyContent' | 'alignItems' | 'flexDir' | 'flexWrap'
+      'justifyContent' | 'alignItems' | 'flexDirection' | 'flexWrap'
     >,
     VariantPropsType {
   title?: string | React.ReactNode;

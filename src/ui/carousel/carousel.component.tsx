@@ -69,7 +69,7 @@ const Carousel: CompoundedCarousel<CarouselProps> = (incomingProps) => {
     }
 
     return (
-      <Div flexDir="row" justifyContent="center" my="lg">
+      <Div flexDirection="row" justifyContent="center" my="lg">
         {Array(totalPages)
           .fill(0)
           .map((_, index) => {

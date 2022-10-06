@@ -40,7 +40,7 @@ const Button: React.FunctionComponent<ButtonProps> = (incomingProps) => {
     justifyContent: 'center',
     alignSelf: 'flex-start',
     onPress: () => {},
-    flexDir: 'row',
+    flexDirection: 'row',
   });
 
   const {
@@ -181,7 +181,7 @@ const Button: React.FunctionComponent<ButtonProps> = (incomingProps) => {
 //   justifyContent: 'center',
 //   alignSelf: 'flex-start',
 //   onPress: () => {},
-//   flexDir: 'row',
+//   flexDirection: 'row',
 // };
 
 export { Button };

@@ -20,7 +20,7 @@ export const getStyle = (theme: ThemeType, props: ScrollDivProps) => {
   const computedStyle: any = {};
 
   computedStyle.div = {
-    flexDirection: props.flexDir,
+    flexDirection: props.flexDirection,
     flexWrap: props.flexWrap,
     alignItems: props.alignItems,
     justifyContent: props.justifyContent,

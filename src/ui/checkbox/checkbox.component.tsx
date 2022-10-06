@@ -38,7 +38,7 @@ const Checkbox: CompundedCheckbox<CheckboxProps> = (incomingProps) => {
     justifyContent: 'center',
     alignSelf: 'flex-start',
     onPress: () => {},
-    flexDir: 'row',
+    flexDirection: 'row',
   });
 
   const {
@@ -218,7 +218,7 @@ const Checkbox: CompundedCheckbox<CheckboxProps> = (incomingProps) => {
 //   justifyContent: 'center',
 //   alignSelf: 'flex-start',
 //   onPress: () => {},
-//   flexDir: 'row',
+//   flexDirection: 'row',
 // };
 
 Checkbox.Group = CheckboxGroup;
