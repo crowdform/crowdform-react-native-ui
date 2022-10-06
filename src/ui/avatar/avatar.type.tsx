@@ -33,7 +33,7 @@ export interface AvatarProps
     OpacityPropsType,
     Pick<FlexPropsType, 'alignSelf'>,
     Pick<TextPropsType, 'color' | 'fontSize' | 'fontWeight' | 'fontFamily'>,
-    Pick<BackgroundPropsType, 'bg'>,
+    Pick<BackgroundPropsType, 'bg' | 'background' | 'backgroundColor'>,
     VariantPropsType {
   size?: number;
   source?: RNImageSourcePropType;

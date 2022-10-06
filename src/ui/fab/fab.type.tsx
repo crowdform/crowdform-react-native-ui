@@ -28,7 +28,7 @@ export interface FabProps
     PositionPropsType,
     DisabledPropsType,
     OverlayPropsType,
-    Pick<BackgroundPropsType, 'bg'>,
+    Pick<BackgroundPropsType, 'bg' | 'background' | 'backgroundColor'>,
     Pick<ButtonPropsType, 'block' | 'borderless' | 'rippleColor' | 'ripple'>,
     Pick<TextPropsType, 'color' | 'fontSize'>,
     VariantPropsType {

@@ -40,7 +40,7 @@ export interface IconProps
     PositionPropsType,
     ZIndexPropsType,
     OpacityPropsType,
-    Pick<BackgroundPropsType, 'bg'>,
+    Pick<BackgroundPropsType, 'bg' | 'background' | 'backgroundColor'>,
     Pick<TextPropsType, 'color' | 'fontSize'>,
     Pick<FlexPropsType, 'alignSelf'>,
     VariantPropsType {

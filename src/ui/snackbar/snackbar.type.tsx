@@ -33,7 +33,7 @@ export interface SnackbarProps
     DimensionPropsType,
     OpacityPropsType,
     FlexPropsType,
-    Pick<BackgroundPropsType, 'bg'>,
+    Pick<BackgroundPropsType, 'bg' | 'background' | 'backgroundColor'>,
     Pick<TextPropsType, 'color' | 'fontSize' | 'fontWeight'>,
     VariantPropsType {
   id?: string;

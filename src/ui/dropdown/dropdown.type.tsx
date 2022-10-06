@@ -31,7 +31,7 @@ export interface DropdownProps
     RoundedPropsType,
     DimensionPropsType,
     OverflowPropsType,
-    Pick<BackgroundPropsType, 'bg'>,
+    Pick<BackgroundPropsType, 'bg' | 'background' | 'backgroundColor'>,
     Pick<
       FlexPropsType,
       'justifyContent' | 'alignItems' | 'flexDirection' | 'flexWrap'

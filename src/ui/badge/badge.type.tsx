@@ -26,7 +26,7 @@ export interface BadgeProps
     ZIndexPropsType,
     Pick<FlexPropsType, 'justifyContent' | 'alignItems' | 'alignSelf'>,
     Pick<TextPropsType, 'color' | 'fontSize' | 'fontWeight' | 'fontFamily'>,
-    Pick<BackgroundPropsType, 'bg'>,
+    Pick<BackgroundPropsType, 'bg' | 'background' | 'backgroundColor'>,
     VariantPropsType {
   count?: string | number;
 }

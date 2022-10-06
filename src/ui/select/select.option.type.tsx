@@ -30,7 +30,7 @@ export interface SelectOptionProps
     ButtonPropsType,
     Pick<PrefixSuffixPropsType, 'prefix'>,
     Pick<PrefixSuffixPropsType, 'suffix'>,
-    Pick<BackgroundPropsType, 'bg'>,
+    Pick<BackgroundPropsType, 'bg' | 'background' | 'backgroundColor'>,
     DimensionPropsType,
     Pick<TextPropsType, 'color' | 'fontSize'>,
     VariantPropsType {

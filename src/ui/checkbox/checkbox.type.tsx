@@ -39,7 +39,7 @@ export interface CheckboxProps
     ZIndexPropsType,
     DisabledPropsType,
     Pick<TextPropsType, 'fontWeight' | 'color' | 'fontSize'>,
-    Pick<BackgroundPropsType, 'bg'>,
+    Pick<BackgroundPropsType, 'bg' | 'background' | 'backgroundColor'>,
     ButtonPropsType,
     VariantPropsType {
   highlightBg?: string;

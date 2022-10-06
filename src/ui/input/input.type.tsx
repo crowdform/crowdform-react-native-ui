@@ -28,7 +28,7 @@ export interface InputProps
     ZIndexPropsType,
     OpacityPropsType,
     Pick<FlexPropsType, 'flex'>,
-    Pick<BackgroundPropsType, 'bg'>,
+    Pick<BackgroundPropsType, 'bg' | 'background' | 'backgroundColor'>,
     Omit<TextPropsType, 'textAlign'>,
     InputPropsType,
     VariantPropsType {}

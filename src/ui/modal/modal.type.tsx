@@ -28,7 +28,7 @@ export interface ModalProps
   extends BorderPropsType,
     SpacingPropsType,
     RoundedPropsType,
-    Pick<BackgroundPropsType, 'bg'>,
+    Pick<BackgroundPropsType, 'bg' | 'background' | 'backgroundColor'>,
     Pick<DimensionPropsType, 'height'>,
     Pick<FlexPropsType, 'justifyContent'>,
     VariantPropsType {

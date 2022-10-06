@@ -34,7 +34,5 @@ export interface ButtonProps
     OpacityPropsType,
     ZIndexPropsType,
     ButtonPropsType,
-    Pick<BackgroundPropsType, 'bg'>,
-    Pick<BackgroundPropsType, 'background'>,
-    Pick<BackgroundPropsType, 'backgroundColor'>,
+    Pick<BackgroundPropsType, 'bg' | 'background' | 'backgroundColor'>,
     VariantPropsType {}

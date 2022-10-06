@@ -18,11 +18,11 @@ export interface ImageProps
     BorderPropsType,
     SpacingPropsType,
     ShadowPropsType,
-    RoundedPropsType,
     DimensionPropsType,
     PositionPropsType,
     OpacityPropsType,
     ZIndexPropsType,
-    Pick<BackgroundPropsType, 'bg'>,
+    Pick<RoundedPropsType, 'rounded'>,
+    Pick<BackgroundPropsType, 'bg' | 'background' | 'backgroundColor'>,
     Pick<FlexPropsType, 'flex' | 'alignSelf'>,
     VariantPropsType {}

@@ -18,7 +18,7 @@ export interface MentionProps
     RoundedPropsType,
     PositionPropsType,
     Pick<LoadingPropsType, 'loading'>,
-    Pick<BackgroundPropsType, 'bg'>,
+    Pick<BackgroundPropsType, 'bg' | 'background' | 'backgroundColor'>,
     VariantPropsType {
   trigger?: any;
   height?: number;

@@ -103,6 +103,7 @@ export interface SpacingPropsType {
 }
 
 export const roundedProps = [
+  'rounded',
   'borderRadius',
   'borderTopLeftRadius',
   'borderTopRightRadius',
@@ -114,6 +115,7 @@ export const roundedProps = [
   'roundedBottom',
 ] as const;
 export interface RoundedPropsType {
+  rounded?: string | number;
   borderRadius?: string | number;
   borderTopLeftRadius?: string | number;
   borderTopRightRadius?: string | number;

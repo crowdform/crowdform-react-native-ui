@@ -18,7 +18,7 @@ export interface DrawerProps
     RNViewProps,
     BorderPropsType,
     RoundedPropsType,
-    Pick<BackgroundPropsType, 'bg'>,
+    Pick<BackgroundPropsType, 'bg' | 'background' | 'backgroundColor'>,
     VariantPropsType {
   direction?: 'left' | 'right';
   drawerPercentage?: number;

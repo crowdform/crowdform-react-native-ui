@@ -25,7 +25,7 @@ export interface TooltipProps
     DimensionPropsType,
     OpacityPropsType,
     ZIndexPropsType,
-    Pick<BackgroundPropsType, 'bg'>,
+    Pick<BackgroundPropsType, 'bg' | 'background' | 'backgroundColor'>,
     VariantPropsType {
   animationDuration?: number;
   text: string | React.ReactNode;

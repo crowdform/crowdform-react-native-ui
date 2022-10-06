@@ -40,7 +40,7 @@ export interface RadioProps
     OpacityPropsType,
     ZIndexPropsType,
     Omit<ButtonPropsType, 'underlayColor'>,
-    Pick<BackgroundPropsType, 'bg'>,
+    Pick<BackgroundPropsType, 'bg' | 'background' | 'backgroundColor'>,
     Pick<TextPropsType, 'fontWeight' | 'color' | 'fontSize'>,
     VariantPropsType {
   highlightBg?: string;
