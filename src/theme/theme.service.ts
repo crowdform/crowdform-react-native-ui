@@ -181,7 +181,7 @@ export const createBorderRadiusStyles = (
     if (propKey in props) {
       if (styleProperty instanceof Array) {
         styleProperty.forEach((property) => {
-          computedStyle[property] = props[propKey]; // getThemeProperty(theme, props[propKey]);
+          computedStyle[property] = getThemeProperty(theme, props[propKey]);
         });
       } else {
         computedStyle[styleProperty] = props[propKey]; //getThemeProperty(theme, props[propKey]);
