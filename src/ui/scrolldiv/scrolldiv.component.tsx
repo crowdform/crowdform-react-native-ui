@@ -74,7 +74,6 @@ const ScrollDiv: React.FunctionComponent<ScrollDivProps> = (incomingProps) => {
         style={computedStyle.div}
         resizeMode={props.bgMode}
         imageStyle={computedStyle.image}
-        {...rest}
       >
         {children}
       </RNImageBackground>
