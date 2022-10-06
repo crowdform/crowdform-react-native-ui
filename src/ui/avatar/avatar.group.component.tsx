@@ -10,20 +10,20 @@ const AvatarGroup: React.FunctionComponent<AvatarGroupProps> = (
 ) => {
   const props = useDefaultProps('AvatarGroup', incomingProps, {
     row: true,
-    ml: 'none',
+    marginLeft: 'none',
     offset: 'lg',
   });
 
-  const { children, ml, offset, ...rest } = props;
+  const { children, marginLeft, offset, ...rest } = props;
   const { theme } = useTheme();
   const calculatedOffset = getThemeProperty(theme.spacing, offset);
-  const calculatedMarginLeft = getThemeProperty(theme.spacing, ml);
+  const calculatedMarginLeft = getThemeProperty(theme.spacing, marginLeft);
 
   return (
-    <Div {...rest} ml={calculatedOffset + calculatedMarginLeft}>
+    <Div {...rest} marginLeft={calculatedOffset + calculatedMarginLeft}>
       {React.Children.map(children, (child: React.ReactElement) => {
         return React.cloneElement(child, {
-          ml: -1 * calculatedOffset,
+          marginLeft: -1 * calculatedOffset,
         });
       })}
     </Div>
@@ -32,7 +32,7 @@ const AvatarGroup: React.FunctionComponent<AvatarGroupProps> = (
 
 // AvatarGroup.defaultProps = {
 //   row: true,
-//   ml: 'none',
+//   marginLeft: 'none',
 //   offset: 'lg',
 // };
 

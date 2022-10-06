@@ -55,17 +55,17 @@ export const getStyle = (theme: ThemeType, props: TagProps) => {
     };
   }
 
-  if (props.minH) {
+  if (props.minHeight) {
     computedStyle.div = {
       ...computedStyle.div,
-      minHeight: props.minH,
+      minHeight: props.minHeight,
     };
   }
 
-  if (props.minW) {
+  if (props.minWidth) {
     computedStyle.div = {
       ...computedStyle.div,
-      minWidth: props.minW,
+      minWidth: props.minWidth,
     };
   }
 

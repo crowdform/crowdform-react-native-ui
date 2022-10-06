@@ -14,7 +14,7 @@ import { useDefaultProps } from '../../utilities/useDefaultProps';
 
 const Textarea: React.FunctionComponent<TextareaProps> = (incomingProps) => {
   const props = useDefaultProps('Textarea', incomingProps, {
-    minH: 100,
+    minHeight: 100,
     p: 'lg',
     borderColor: 'gray500',
     borderWidth: 1,
@@ -26,8 +26,8 @@ const Textarea: React.FunctionComponent<TextareaProps> = (incomingProps) => {
     h,
     w,
     m,
-    minH,
-    minW,
+    minHeight,
+    minWidth,
     suffix,
     prefix,
     style,
@@ -77,7 +77,7 @@ const Textarea: React.FunctionComponent<TextareaProps> = (incomingProps) => {
 };
 
 // Textarea.defaultProps = {
-//   minH: 100,
+//   minHeight: 100,
 //   p: 'lg',
 //   borderColor: 'gray500',
 //   borderWidth: 1,

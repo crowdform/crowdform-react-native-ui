@@ -22,8 +22,8 @@ export const getStyle = (theme: ThemeType, props: DropdownProps) => {
   computedStyle.wrapper = {
     height: props.h,
     width: props.w,
-    minHeight: props.minH,
-    minWidth: props.minW,
+    minHeight: props.minHeight,
+    minWidth: props.minWidth,
     alignSelf: 'center',
     overflow: props.overflow,
     backgroundColor: getThemeColor(theme.colors, props.bg),

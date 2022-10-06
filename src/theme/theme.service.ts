@@ -5,7 +5,7 @@ import { isValidColor } from '../utilities';
 /**
  * create spacing styles from object of style props passed to magnus component
  *
- * m="10", mt="xl"
+ * m="10", marginTop="xl"
  *
  * @param value
  * @param theme
@@ -18,18 +18,18 @@ export const createSpacingStyles = (
 
   propKeys = {
     p: 'padding',
-    pt: 'paddingTop',
-    pr: 'paddingRight',
-    pb: 'paddingBottom',
-    pl: 'paddingLeft',
+    paddingTop: 'paddingTop',
+    paddingRight: 'paddingRight',
+    paddingBottom: 'paddingBottom',
+    paddingLeft: 'paddingLeft',
     px: 'paddingHorizontal',
     py: 'paddingVertical',
     ps: 'paddingStart',
     m: 'margin',
-    mt: 'marginTop',
-    mr: 'marginRight',
-    mb: 'marginBottom',
-    ml: 'marginLeft',
+    marginTop: 'marginTop',
+    marginRight: 'marginRight',
+    marginBottom: 'marginBottom',
+    marginLeft: 'marginLeft',
     mx: 'marginHorizontal',
     my: 'marginVertical',
     ms: 'marginStart',

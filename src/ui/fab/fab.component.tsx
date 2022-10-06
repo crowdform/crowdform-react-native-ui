@@ -244,7 +244,7 @@ class FabBase extends React.Component<
         accessible
         accessibilityLabel="Floating Action Button"
       >
-        <Button mb={bottom} mr={right} onPress={this.animateButton} {...rest}>
+        <Button marginBottom={bottom} marginRight={right} onPress={this.animateButton} {...rest}>
           <Animated.View style={[animatedViewStyle]}>
             {this.getIcon()}
           </Animated.View>
@@ -280,7 +280,7 @@ class FabBase extends React.Component<
       <Animated.View style={actionsStyles} pointerEvents="box-none">
         {React.Children.map(children, (child: React.ReactElement) => {
           return React.cloneElement(child, {
-            mb: child.props.mb ? child.props.mb : 'lg',
+            marginBottom: child.props.marginBottom ? child.props.marginBottom : 'lg',
             onPress: (e: GestureResponderEvent) => {
               // if fab is not active, don't allow pressing buttons
               if (!active) {

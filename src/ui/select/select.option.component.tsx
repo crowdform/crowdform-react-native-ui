@@ -27,7 +27,7 @@ const SelectOption: React.FunctionComponent<SelectOptionProps> = (
         fontFamily="Ionicons"
         fontSize="2xl"
         color="green600"
-        mr="md"
+        marginRight="md"
       />
     ),
   });
@@ -81,7 +81,7 @@ const SelectOption: React.FunctionComponent<SelectOptionProps> = (
 
   return (
     <Button {...rest} onPress={onPress} block alignItems="center">
-      {prefix && <Div minW="8%">{renderPrefix()}</Div>}
+      {prefix && <Div minWidth="8%">{renderPrefix()}</Div>}
       <Div flex={1} bg="transparent">
         {renderChildren()}
       </Div>

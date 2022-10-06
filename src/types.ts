@@ -67,36 +67,36 @@ export interface BorderPropsType {
 
 export const spacingProps = [
   'm',
-  'mt',
-  'mr',
-  'mb',
-  'ml',
+  'marginTop',
+  'marginRight',
+  'marginBottom',
+  'marginLeft',
   'mx',
   'my',
   'ms',
   'p',
-  'pt',
-  'pr',
-  'pb',
-  'pl',
+  'paddingTop',
+  'paddingRight',
+  'paddingBottom',
+  'paddingLeft',
   'px',
   'py',
   'ps',
 ] as const;
 export interface SpacingPropsType {
   m?: string | number;
-  mt?: string | number;
-  mr?: string | number;
-  mb?: string | number;
-  ml?: string | number;
+  marginTop?: string | number;
+  marginRight?: string | number;
+  marginBottom?: string | number;
+  marginLeft?: string | number;
   mx?: string | number;
   my?: string | number;
   ms?: string | number;
   p?: string | number;
-  pt?: string | number;
-  pr?: string | number;
-  pb?: string | number;
-  pl?: string | number;
+  paddingTop?: string | number;
+  paddingRight?: string | number;
+  paddingBottom?: string | number;
+  paddingLeft?: string | number;
   px?: string | number;
   py?: string | number;
   ps?: string | number;
@@ -132,18 +132,18 @@ export interface ShadowPropsType {
 }
 
 export const dimensionProps = [
-  'minH',
-  'minW',
-  'maxH',
-  'maxW',
+  'minHeight',
+  'minWidth',
+  'maxHeight',
+  'maxWidth',
   'h',
   'w',
 ] as const;
 export interface DimensionPropsType {
-  minH?: number | string;
-  minW?: number | string;
-  maxH?: number | string;
-  maxW?: number | string;
+  minHeight?: number | string;
+  minWidth?: number | string;
+  maxHeight?: number | string;
+  maxWidth?: number | string;
   h?: number | string;
   w?: number | string;
 }

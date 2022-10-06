@@ -10,7 +10,7 @@ import { Div } from '../div/div.component';
 
 const Header: React.FunctionComponent<HeaderProps> = (incomingProps) => {
   const props = useDefaultProps('Header', incomingProps, {
-    minH: 70,
+    minHeight: 70,
     p: 'lg',
     bg: 'white',
     rounded: 'none',

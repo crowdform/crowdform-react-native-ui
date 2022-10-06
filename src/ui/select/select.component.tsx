@@ -213,12 +213,12 @@ const Select = React.forwardRef<SelectRef, SelectProps>(
       return (
         <Input
           mx="xl"
-          mt="-md"
+          marginTop="-md"
           fontSize="lg"
           placeholder="Search items"
           bg="gray200"
           prefix={
-            <Icon mr="lg" name="search1" color="gray700" fontSize="3xl" />
+            <Icon marginRight="lg" name="search1" color="gray700" fontSize="3xl" />
           }
           suffix={
             searchTerm ? (
@@ -329,7 +329,7 @@ const Select = React.forwardRef<SelectRef, SelectProps>(
 //   rounded: 'none',
 //   flexDirection: 'column',
 //   isVisible: false,
-//   // mb: 'xl',
+//   // marginBottom: 'xl',
 //   // @ts-ignore
 //   renderNoResultsView: (searchTerm) => (
 //     <Div flex={1} px="2xl" py="xl">
