@@ -90,7 +90,6 @@ const Animated: React.FunctionComponent<AnimatedProps> = (incomingProps) => {
           style={computedStyle.div}
           resizeMode={props.bgMode}
           imageStyle={computedStyle.image}
-          {...rest}
         >
           {children}
         </RNImageBackground>
