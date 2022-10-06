@@ -17,8 +17,8 @@ const Text: React.FunctionComponent<TextProps> = (incomingProps) => {
   });
 
   const {
-    w,
-    h,
+    width,
+    height,
     bg,
     m,
     marginTop,

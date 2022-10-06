@@ -41,17 +41,17 @@ export const getStyle = (theme: ThemeType, props: TagProps) => {
     marginLeft: 4,
   };
 
-  if (props.h) {
+  if (props.height) {
     computedStyle.div = {
       ...computedStyle.div,
-      height: props.h,
+      height: props.height,
     };
   }
 
-  if (props.w) {
+  if (props.width) {
     computedStyle.div = {
       ...computedStyle.div,
-      width: props.w,
+      width: props.width,
     };
   }
 

@@ -29,7 +29,7 @@ export interface ModalProps
     SpacingPropsType,
     RoundedPropsType,
     Pick<BackgroundPropsType, 'bg'>,
-    Pick<DimensionPropsType, 'h'>,
+    Pick<DimensionPropsType, 'height'>,
     Pick<FlexPropsType, 'justifyContent'>,
     VariantPropsType {
   children: React.ReactElement[] | React.ReactElement;

@@ -25,8 +25,8 @@ const Div: React.FunctionComponent<DivProps> = (incomingProps) => {
 
   const {
     bg,
-    h,
-    w,
+    height,
+    width,
     m,
     marginTop,
     marginRight,

@@ -118,9 +118,9 @@ const Dropdown = React.forwardRef<DropdownRef, DropdownProps>(
       return (
         showSwipeIndicator && (
           <Div
-            h={7}
+            height={7}
             rounded="xl"
-            w={40}
+            width={40}
             bg="gray200"
             style={computedStyle.indicator}
           />

@@ -24,8 +24,8 @@ export const getStyle = (theme: ThemeType, props: TooltipProps, state: any) => {
 
   computedStyle.container = {
     alignSelf: 'center',
-    height: props.h,
-    width: props.w,
+    height: props.height,
+    width: props.width,
     minWidth: props.minWidth,
     minHeight: props.minHeight,
     maxWidth: props.maxWidth,

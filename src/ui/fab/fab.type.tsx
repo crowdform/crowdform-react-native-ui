@@ -32,7 +32,7 @@ export interface FabProps
     Pick<ButtonPropsType, 'block' | 'borderless' | 'rippleColor' | 'ripple'>,
     Pick<TextPropsType, 'color' | 'fontSize'>,
     VariantPropsType {
-  h?: number;
+  height?: number;
   center?: boolean;
   icon?: string | React.ReactNode;
   activeIcon?: string | React.ReactNode;

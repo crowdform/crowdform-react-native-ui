@@ -10,8 +10,8 @@ const Image: React.FunctionComponent<ImageProps> = (incomingProps) => {
   const props = useDefaultProps('Image', incomingProps, {});
 
   const {
-    h,
-    w,
+    height,
+    width,
     m,
     marginTop,
     marginRight,

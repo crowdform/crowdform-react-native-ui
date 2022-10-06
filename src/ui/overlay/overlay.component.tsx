@@ -18,7 +18,7 @@ const Overlay = React.forwardRef<
 >((incomingProps, ref) => {
   const props = useDefaultProps('Overlay', incomingProps, {
     bg: 'white',
-    w: '80%',
+    width: '80%',
     p: 'lg',
     rounded: 'md',
     overlayOpacity: 0.6,
@@ -41,8 +41,8 @@ const Overlay = React.forwardRef<
     paddingBottom,
     paddingLeft,
     bg,
-    w,
-    h,
+    width,
+    height,
     alignItems,
     justifyContent,
     rounded,

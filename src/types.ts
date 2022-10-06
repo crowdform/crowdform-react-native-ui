@@ -136,16 +136,16 @@ export const dimensionProps = [
   'minWidth',
   'maxHeight',
   'maxWidth',
-  'h',
-  'w',
+  'height',
+  'width',
 ] as const;
 export interface DimensionPropsType {
   minHeight?: number | string;
   minWidth?: number | string;
   maxHeight?: number | string;
   maxWidth?: number | string;
-  h?: number | string;
-  w?: number | string;
+  height?: number | string;
+  width?: number | string;
 }
 
 export const flexProps = [

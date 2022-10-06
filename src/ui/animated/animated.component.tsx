@@ -28,8 +28,8 @@ const Animated: React.FunctionComponent<AnimatedProps> = (incomingProps) => {
   });
 
   const {
-    h,
-    w,
+    height,
+    width,
     m,
     marginTop,
     marginRight,

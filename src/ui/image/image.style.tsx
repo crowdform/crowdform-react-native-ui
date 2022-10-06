@@ -23,8 +23,8 @@ export const getStyle = (theme: ThemeType, props: ImageProps) => {
 
   computedStyle.image = {
     flex: props.flex,
-    height: props.h,
-    width: props.w,
+    height: props.height,
+    width: props.width,
     minHeight: props.minHeight,
     minWidth: props.minHeight,
     maxWidth: props.maxWidth,

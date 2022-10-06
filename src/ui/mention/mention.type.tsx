@@ -21,7 +21,7 @@ export interface MentionProps
     Pick<BackgroundPropsType, 'bg'>,
     VariantPropsType {
   trigger?: any;
-  h?: number;
+  height?: number;
   triggerLocation: 'new-word-only' | 'anywhere';
   onChangeText: (value: string) => void;
   triggerCallback: (lastKeyword: string) => void;

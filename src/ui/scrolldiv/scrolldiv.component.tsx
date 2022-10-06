@@ -22,8 +22,8 @@ const ScrollDiv: React.FunctionComponent<ScrollDivProps> = (incomingProps) => {
   });
 
   const {
-    h,
-    w,
+    height,
+    width,
     m,
     marginTop,
     marginRight,

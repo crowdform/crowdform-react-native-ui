@@ -19,7 +19,7 @@ export interface OverlayProps
     SpacingPropsType,
     RoundedPropsType,
     OverlayPropsType,
-    Pick<DimensionPropsType, 'w' | 'h' | 'minHeight' | 'minWidth'>,
+    Pick<DimensionPropsType, 'width' | 'height' | 'minHeight' | 'minWidth'>,
     Pick<
       FlexPropsType,
       'flex' | 'justifyContent' | 'alignItems' | 'flexDirection' | 'flexWrap'

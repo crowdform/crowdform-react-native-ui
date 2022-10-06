@@ -22,8 +22,8 @@ export const getStyle = (theme: ThemeType, props: IconProps) => {
   const computedStyle: any = {};
 
   computedStyle.container = {
-    height: props.h,
-    width: props.w,
+    height: props.height,
+    width: props.width,
     minHeight: props.minHeight,
     minWidth: props.minWidth,
     maxWidth: props.maxWidth,

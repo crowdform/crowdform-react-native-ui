@@ -12,14 +12,14 @@ import { useDefaultProps } from '../../utilities/useDefaultProps';
 const Modal = React.forwardRef<ModalRef, ModalProps>((incomingProps, ref) => {
   const props = useDefaultProps('Modal', incomingProps, {
     bg: 'white',
-    h: '100%',
+    height: '100%',
     isVisible: false,
     justifyContent: 'flex-end',
   });
 
   const {
     bg,
-    h,
+    height,
     m,
     marginTop,
     marginRight,
@@ -76,7 +76,7 @@ const Modal = React.forwardRef<ModalRef, ModalProps>((incomingProps, ref) => {
 
   return (
     <RNModal isVisible={visible} {...rest} style={computedStyle.modal}>
-      <Div bg={bg} h={h ?? '100%'} style={computedStyle.container}>
+      <Div bg={bg} height={height ?? '100%'} style={computedStyle.container}>
         <SafeAreaView style={computedStyle.safeView}>{children}</SafeAreaView>
       </Div>
     </RNModal>
@@ -85,7 +85,7 @@ const Modal = React.forwardRef<ModalRef, ModalProps>((incomingProps, ref) => {
 
 // Modal.defaultProps = {
 //   bg: 'white',
-//   h: '100%',
+//   height: '100%',
 //   isVisible: false,
 //   justifyContent: 'flex-end',
 // };

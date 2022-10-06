@@ -40,7 +40,7 @@ class FabBase extends React.Component<
 
     this.mainBottomAnimation = new Animated.Value(props.bottom ?? 0);
     this.actionsBottomAnimation = new Animated.Value(
-      (props.h ?? 40) + (props.bottom ?? 40) + 30
+      (props.height ?? 40) + (props.bottom ?? 40) + 30
     );
     this.animation = new Animated.Value(0);
     this.actionsAnimation = new Animated.Value(0);
@@ -85,7 +85,7 @@ class FabBase extends React.Component<
     const {
       animated,
       onClose,
-      h,
+      height,
       bottom,
       useNativeDriver = false,
     } = this.props;
@@ -100,7 +100,7 @@ class FabBase extends React.Component<
         useNativeDriver,
       }).start();
       Animated.spring(this.actionsBottomAnimation, {
-        toValue: (h ?? 40) + (bottom ?? 40),
+        toValue: (height ?? 40) + (bottom ?? 40),
         useNativeDriver,
       }).start();
     }
@@ -117,7 +117,7 @@ class FabBase extends React.Component<
   };
 
   animateButton = () => {
-    const { animated, onOpen, h, bottom, useNativeDriver = false } = this.props;
+    const { animated, onOpen, height, bottom, useNativeDriver = false } = this.props;
     const { active } = this.state;
 
     if (!active) {
@@ -134,7 +134,7 @@ class FabBase extends React.Component<
           useNativeDriver,
         }).start();
         Animated.spring(this.actionsBottomAnimation, {
-          toValue: (h ?? 40) + (bottom ?? 40) + 20,
+          toValue: (height ?? 40) + (bottom ?? 40) + 20,
           useNativeDriver,
         }).start();
 

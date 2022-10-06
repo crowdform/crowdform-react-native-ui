@@ -157,6 +157,11 @@ export const createBorderRadiusStyles = (
   let propKeys: any;
 
   propKeys = {
+    borderRadius: 'borderRadius',
+    borderTopLeftRadius: 'borderTopLeftRadius',
+    borderTopRightRadius: 'borderTopRightRadius',
+    borderBottomLeftRadius: 'borderBottomLeftRadius',
+    borderBottomRightRadius: 'borderBottomRightRadius',
     rounded: 'borderRadius',
     roundedTopLeft: 'borderTopLeftRadius',
     roundedTopRight: 'borderTopRightRadius',

@@ -23,8 +23,8 @@ export const getStyle = (theme: ThemeType, props: TextProps) => {
   const computedStyle: any = {};
 
   computedStyle.text = {
-    height: props.h,
-    width: props.w,
+    height: props.height,
+    width: props.width,
     minHeight: props.minHeight,
     minWidth: props.minWidth,
     maxHeight: props.maxHeight,

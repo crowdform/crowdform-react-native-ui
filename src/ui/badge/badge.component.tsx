@@ -24,8 +24,8 @@ const Badge: React.FunctionComponent<BadgeProps> = (incomingProps) => {
   });
 
   const {
-    h,
-    w,
+    height,
+    width,
     m,
     marginTop,
     marginRight,

@@ -75,8 +75,8 @@ const Carousel: CompoundedCarousel<CarouselProps> = (incomingProps) => {
           .map((_, index) => {
             return (
               <Div
-                w={10}
-                h={10}
+                width={10}
+                height={10}
                 rounded="circle"
                 bg={selectedPage === index + 1 ? 'blue600' : 'gray400'}
                 mx="xs"
@@ -98,7 +98,7 @@ const Carousel: CompoundedCarousel<CarouselProps> = (incomingProps) => {
           flex: 1,
         }}
         showsHorizontalScrollIndicator={false}
-        onContentSizeChange={(w, _h) => init(w)}
+        onContentSizeChange={(width, _h) => init(width)}
         onScroll={(data) => {
           setTotalContentWidth(data.nativeEvent.contentSize.width);
           setSelectedPage(getPage(data));

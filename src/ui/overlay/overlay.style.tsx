@@ -34,8 +34,8 @@ export const getStyle = (theme: ThemeType, props: OverlayProps) => {
     ...createFlexStyles(props),
     ...createSpacingStyles(props, theme.spacing),
     ...createBorderRadiusStyles(props, theme.borderRadius),
-    width: props.w,
-    height: props.h,
+    width: props.width,
+    height: props.height,
     alignItems: props.alignItems,
     justifyContent: props.justifyContent,
   };

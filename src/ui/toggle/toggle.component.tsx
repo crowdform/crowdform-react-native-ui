@@ -10,8 +10,8 @@ import { useDefaultProps } from '../../utilities/useDefaultProps';
 
 const Toggle: React.FC<ToggleProps> = (incomingProps) => {
   const props = useDefaultProps('Toggle', incomingProps, {
-    w: 55,
-    h: 30,
+    width: 55,
+    height: 30,
     onPress: (): void => {},
     activeBg: 'green600',
     bg: 'gray400',
@@ -24,8 +24,8 @@ const Toggle: React.FC<ToggleProps> = (incomingProps) => {
   });
 
   const {
-    h,
-    w,
+    height,
+    width,
     bg,
     m,
     marginTop,
@@ -67,7 +67,7 @@ const Toggle: React.FC<ToggleProps> = (incomingProps) => {
   const { theme } = useTheme();
   const computedStyle = getStyle(theme, props);
 
-  const endPos = (w as number) - (h as number) + 3;
+  const endPos = (width as number) - (height as number) + 3;
   const circlePosXEnd = endPos;
   const [circlePosXStart] = useState(3);
 
@@ -147,8 +147,8 @@ const Toggle: React.FC<ToggleProps> = (incomingProps) => {
 };
 
 // Toggle.defaultProps = {
-//   w: 55,
-//   h: 30,
+//   width: 55,
+//   height: 30,
 //   onPress: (): void => {},
 //   activeBg: 'green600',
 //   bg: 'gray400',

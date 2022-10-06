@@ -56,17 +56,17 @@ export const getStyle = (theme: ThemeType, props: SelectOptionProps) => {
     };
   }
 
-  if (props.w) {
+  if (props.width) {
     computedStyle.button = {
       ...computedStyle.button,
-      width: props.w,
+      width: props.width,
     };
   }
 
-  if (props.h) {
+  if (props.height) {
     computedStyle.button = {
       ...computedStyle.button,
-      height: props.h,
+      height: props.height,
     };
   }
 

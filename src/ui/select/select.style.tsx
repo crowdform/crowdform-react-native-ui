@@ -39,10 +39,10 @@ export const getStyle = (theme: ThemeType, props: SelectProps) => {
     ...createSpacingStyles(props, theme.spacing),
   };
 
-  if (props.h) {
+  if (props.height) {
     computedStyle.container = {
       ...computedStyle.container,
-      height: props.h,
+      height: props.height,
     };
   }
 

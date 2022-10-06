@@ -8,8 +8,8 @@ import { SkeletonProps, CompundedSkeleton } from './skeleton.type';
 const Skeleton: CompundedSkeleton<SkeletonProps> = (incomingProps) => {
   const props = useDefaultProps('Skeleton', incomingProps, {
     bg: 'gray400',
-    h: 15,
-    w: '100%',
+    height: 15,
+    width: '100%',
     rounded: 'lg',
     duration: 1000,
   });
@@ -47,8 +47,8 @@ export const Circle: React.FunctionComponent<SkeletonProps> = (
 ) => {
   const props = useDefaultProps('SkeletonCircle', incomingProps, {
     bg: 'gray400',
-    h: 15,
-    w: 15,
+    height: 15,
+    width: 15,
     rounded: 'circle',
   });
 
@@ -57,16 +57,16 @@ export const Circle: React.FunctionComponent<SkeletonProps> = (
 
 Skeleton.defaultProps = {
   bg: 'gray400',
-  h: 15,
-  w: '100%',
+  height: 15,
+  width: '100%',
   rounded: 'lg',
   duration: 1000,
 };
 
 Circle.defaultProps = {
   bg: 'gray400',
-  h: 15,
-  w: 15,
+  height: 15,
+  width: 15,
   rounded: 'circle',
 };
 

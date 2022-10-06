@@ -23,8 +23,8 @@ const Textarea: React.FunctionComponent<TextareaProps> = (incomingProps) => {
   });
 
   const {
-    h,
-    w,
+    height,
+    width,
     m,
     minHeight,
     minWidth,

@@ -32,8 +32,8 @@ export const getStyle = (
 
   computedStyle.div = {
     zIndex: 1,
-    height: props.h,
-    width: props.w,
+    height: props.height,
+    width: props.width,
     alignItems: 'center',
     justifyContent: 'center',
     alignSelf: 'flex-start',

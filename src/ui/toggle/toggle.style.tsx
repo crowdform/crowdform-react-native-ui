@@ -18,8 +18,8 @@ export const getStyle = (theme: ThemeType, props: ToggleProps) => {
 
   computedStyle.container = {
     flexDirection: 'row',
-    height: props.h,
-    width: props.w,
+    height: props.height,
+    width: props.width,
     alignItems: 'center',
     ...createSpacingStyles(props, theme.spacing),
     ...createBorderRadiusStyles(props, theme.borderRadius),
@@ -27,11 +27,11 @@ export const getStyle = (theme: ThemeType, props: ToggleProps) => {
 
   computedStyle.circle = {
     // @ts-ignore
-    height: props.h - 6,
+    height: props.height - 6,
     // @ts-ignore
-    width: props.h - 6,
+    width: props.height - 6,
     // @ts-ignore
-    borderRadius: props.h - 6,
+    borderRadius: props.height - 6,
   };
 
   // merging style props to computed style

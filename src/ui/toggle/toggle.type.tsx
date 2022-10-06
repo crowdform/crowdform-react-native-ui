@@ -15,7 +15,7 @@ export interface ToggleProps
     RoundedPropsType,
     BorderPropsType,
     DisabledPropsType,
-    Pick<DimensionPropsType, 'w' | 'h'>,
+    Pick<DimensionPropsType, 'width' | 'height'>,
     Pick<BackgroundPropsType, 'bg'>,
     Pick<RNTouchableOpacityProps, 'style'>,
     DisabledPropsType,

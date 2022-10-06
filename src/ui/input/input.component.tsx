@@ -34,8 +34,8 @@ const Input = React.forwardRef<RNTextInput, InputProps>(
     });
 
     const {
-      h,
-      w,
+      height,
+      width,
       m,
       marginTop,
       marginRight,

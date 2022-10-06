@@ -51,17 +51,17 @@ export const getStyle = (theme: ThemeType, props: ScrollDivProps) => {
     };
   }
 
-  if (props.h) {
+  if (props.height) {
     computedStyle.div = {
       ...computedStyle.div,
-      height: props.h,
+      height: props.height,
     };
   }
 
-  if (props.w) {
+  if (props.width) {
     computedStyle.div = {
       ...computedStyle.div,
-      width: props.w,
+      width: props.width,
     };
   }
 
