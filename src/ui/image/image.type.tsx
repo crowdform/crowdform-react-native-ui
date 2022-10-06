@@ -22,7 +22,14 @@ export interface ImageProps
     PositionPropsType,
     OpacityPropsType,
     ZIndexPropsType,
-    Pick<RoundedPropsType, 'rounded'>,
+    Pick<
+      RoundedPropsType,
+      | 'rounded'
+      | 'roundedTop'
+      | 'roundedLeft'
+      | 'roundedRight'
+      | 'roundedBottom'
+    >,
     Pick<BackgroundPropsType, 'bg' | 'background' | 'backgroundColor'>,
     Pick<FlexPropsType, 'flex' | 'alignSelf'>,
     VariantPropsType {}
