@@ -194,9 +194,17 @@ export interface PositionPropsType {
   left?: number;
 }
 
-export const backgroundProps = ['bg', 'bgImg', 'bgMode'] as const;
+export const backgroundProps = [
+  'bg',
+  'background',
+  'backgroundColor',
+  'bgImg',
+  'bgMode',
+] as const;
 export interface BackgroundPropsType {
   bg?: string;
+  background?: string;
+  backgroundColor?: string;
   bgImg?: RNImageSourcePropType;
   bgMode?: 'contain' | 'cover' | 'stretch' | 'repeat';
 }

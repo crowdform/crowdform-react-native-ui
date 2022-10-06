@@ -42,7 +42,10 @@ export const getStyle = (theme: ThemeType, props: ButtonProps) => {
     ...createSpacingStyles(props, theme.spacing),
     ...createBorderColorStyles(props, theme.colors),
     ...createBorderRadiusStyles(props, theme.borderRadius),
-    backgroundColor: getThemeColor(theme.colors, props.bg),
+    backgroundColor: getThemeColor(
+      theme.colors,
+      props.backgroundColor || props.background || props.bg
+    ),
   };
 
   computedStyle.loadingContainer = {
