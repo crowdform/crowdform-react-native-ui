@@ -77,7 +77,7 @@ const Carousel: CompoundedCarousel<CarouselProps> = (incomingProps) => {
               <Div
                 width={10}
                 height={10}
-                rounded="circle"
+                borderRadius="circle"
                 bg={selectedPage === index + 1 ? 'blue600' : 'gray400'}
                 mx="xs"
                 key={index}

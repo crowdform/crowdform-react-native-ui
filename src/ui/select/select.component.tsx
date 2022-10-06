@@ -20,7 +20,7 @@ const Select = React.forwardRef<SelectRef, SelectProps>(
   (incomingProps, ref) => {
     const props = useDefaultProps('Select', incomingProps, {
       bg: 'white',
-      rounded: 'none',
+      borderRadius: 'none',
       flexDirection: 'column',
       isVisible: false,
       renderNoResultsView: (searchTerm) => (
@@ -226,7 +226,7 @@ const Select = React.forwardRef<SelectRef, SelectProps>(
                 mx="-md"
                 p="md"
                 alignSelf="center"
-                rounded="circle"
+                borderRadius="circle"
                 bg="gray400"
                 onPress={clearSearchInput}
               >
@@ -261,7 +261,7 @@ const Select = React.forwardRef<SelectRef, SelectProps>(
       }
 
       return (
-        <Button block rounded="none" bg="green600" {...mandatoryProps}>
+        <Button block borderRadius="none" bg="green600" {...mandatoryProps}>
           <Text fontSize="xl" py="xs" color="white">
             Submit
           </Text>
@@ -326,7 +326,7 @@ const Select = React.forwardRef<SelectRef, SelectProps>(
 
 // Select.defaultProps = {
 //   bg: 'white',
-//   rounded: 'none',
+//   borderRadius: 'none',
 //   flexDirection: 'column',
 //   isVisible: false,
 //   // marginBottom: 'xl',

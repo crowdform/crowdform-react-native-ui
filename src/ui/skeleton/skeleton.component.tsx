@@ -10,7 +10,7 @@ const Skeleton: CompundedSkeleton<SkeletonProps> = (incomingProps) => {
     bg: 'gray400',
     height: 15,
     width: '100%',
-    rounded: 'lg',
+    borderRadius: 'lg',
     duration: 1000,
   });
 
@@ -49,7 +49,7 @@ export const Circle: React.FunctionComponent<SkeletonProps> = (
     bg: 'gray400',
     height: 15,
     width: 15,
-    rounded: 'circle',
+    borderRadius: 'circle',
   });
 
   return <Skeleton {...props} />;
@@ -59,7 +59,7 @@ Skeleton.defaultProps = {
   bg: 'gray400',
   height: 15,
   width: '100%',
-  rounded: 'lg',
+  borderRadius: 'lg',
   duration: 1000,
 };
 
@@ -67,7 +67,7 @@ Circle.defaultProps = {
   bg: 'gray400',
   height: 15,
   width: 15,
-  rounded: 'circle',
+  borderRadius: 'circle',
 };
 
 Skeleton.Box = Skeleton;

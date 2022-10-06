@@ -17,7 +17,7 @@ const Animated: React.FunctionComponent<AnimatedProps> = (incomingProps) => {
   const props = useDefaultProps('Animated', incomingProps, {
     bg: 'transparent',
     flexWrap: 'nowrap',
-    rounded: 'none',
+    borderRadius: 'none',
     shadow: 'none',
     shadowColor: 'gray900',
     position: 'relative',
@@ -45,7 +45,7 @@ const Animated: React.FunctionComponent<AnimatedProps> = (incomingProps) => {
     position,
     style,
     flexDirection,
-    rounded,
+    borderRadius,
     roundedTop,
     roundedRight,
     roundedBottom,
@@ -116,7 +116,7 @@ const Animated: React.FunctionComponent<AnimatedProps> = (incomingProps) => {
 // Animated.defaultProps = {
 //   bg: 'transparent',
 //   flexWrap: 'nowrap',
-//   rounded: 'none',
+//   borderRadius: 'none',
 //   shadow: 'none',
 //   shadowColor: 'gray900',
 //   position: 'relative',

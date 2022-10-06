@@ -28,7 +28,7 @@ const Image: React.FunctionComponent<ImageProps> = (incomingProps) => {
     maxHeight,
     maxWidth,
     style,
-    rounded,
+    borderRadius,
     roundedTop,
     roundedRight,
     roundedBottom,

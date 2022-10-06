@@ -12,7 +12,7 @@ import { useDefaultProps } from '../../utilities/useDefaultProps';
 const Badge: React.FunctionComponent<BadgeProps> = (incomingProps) => {
   const props = useDefaultProps('Badge', incomingProps, {
     bg: 'green700',
-    rounded: 'circle',
+    borderRadius: 'circle',
     shadow: 0,
     color: 'white',
     top: 0,
@@ -42,7 +42,7 @@ const Badge: React.FunctionComponent<BadgeProps> = (incomingProps) => {
     minWidth,
     style,
     shadow,
-    rounded,
+    borderRadius,
     position,
     roundedTop,
     roundedRight,
@@ -96,7 +96,7 @@ const Badge: React.FunctionComponent<BadgeProps> = (incomingProps) => {
 
 // Badge.defaultProps = {
 //   bg: 'green700',
-//   rounded: 'circle',
+//   borderRadius: 'circle',
 //   shadow: 0,
 //   color: 'white',
 //   top: 0,

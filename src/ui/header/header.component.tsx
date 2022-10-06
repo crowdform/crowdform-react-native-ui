@@ -13,7 +13,7 @@ const Header: React.FunctionComponent<HeaderProps> = (incomingProps) => {
     minHeight: 70,
     p: 'lg',
     bg: 'white',
-    rounded: 'none',
+    borderRadius: 'none',
     flexDirection: 'row',
     shadow: 'sm',
     shadowColor: 'gray900',

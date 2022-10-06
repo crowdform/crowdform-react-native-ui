@@ -31,7 +31,7 @@ const Modal = React.forwardRef<ModalRef, ModalProps>((incomingProps, ref) => {
     paddingTop,
     paddingBottom,
     paddingLeft,
-    rounded,
+    borderRadius,
     roundedTop,
     roundedRight,
     roundedBottom,

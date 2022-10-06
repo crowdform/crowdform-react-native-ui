@@ -13,7 +13,7 @@ const Tag: React.FunctionComponent<TagProps> = (incomingProps) => {
     fontSize: 'lg',
     textAlign: 'auto',
     textTransform: 'none',
-    rounded: 'md',
+    borderRadius: 'md',
     borderWidth: 0,
     borderColor: 'transparent',
     onPress: () => {},

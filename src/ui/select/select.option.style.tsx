@@ -112,10 +112,10 @@ export const getStyle = (theme: ThemeType, props: SelectOptionProps) => {
     };
   }
 
-  if (props.rounded) {
+  if (props.borderRadius) {
     computedStyle.button = {
       ...computedStyle.button,
-      ...createBorderRadiusStyles(props.rounded, theme.borderRadius),
+      ...createBorderRadiusStyles(props.borderRadius, theme.borderRadius),
     };
   }
 

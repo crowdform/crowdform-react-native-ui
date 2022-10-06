@@ -19,7 +19,7 @@ const Toggle: React.FC<ToggleProps> = (incomingProps) => {
     circleBg: 'white',
     activeCircleBg: 'white',
     duration: 300,
-    rounded: 'circle',
+    borderRadius: 'circle',
     disabled: false,
   });
 
@@ -39,7 +39,7 @@ const Toggle: React.FC<ToggleProps> = (incomingProps) => {
     paddingBottom,
     paddingLeft,
     disabled,
-    rounded,
+    borderRadius,
     roundedTop,
     roundedRight,
     roundedBottom,
@@ -156,7 +156,7 @@ const Toggle: React.FC<ToggleProps> = (incomingProps) => {
 //   circleBg: 'white',
 //   activeCircleBg: 'white',
 //   duration: 300,
-//   rounded: 'circle',
+//   borderRadius: 'circle',
 //   disabled: false,
 // };
 

@@ -17,7 +17,7 @@ const Drawer = React.forwardRef<DrawerRef, DrawerProps>(
       bg: 'white',
       backdropColor: 'black',
       direction: 'left',
-      rounded: 'none',
+      borderRadius: 'none',
       backdropTransitionOutTiming: 0,
     });
 
@@ -94,7 +94,7 @@ const Drawer = React.forwardRef<DrawerRef, DrawerProps>(
 //   bg: 'white',
 //   backdropColor: 'black',
 //   direction: 'left',
-//   rounded: 'none',
+//   borderRadius: 'none',
 //   backdropTransitionOutTiming: 0,
 // };
 

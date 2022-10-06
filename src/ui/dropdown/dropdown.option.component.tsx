@@ -10,7 +10,7 @@ const DropdownOption: React.FunctionComponent<DropdownOptionProps> = (
 ) => {
   const props = useDefaultProps('DropdownOption', incomingProps, {
     onSelect: () => {},
-    rounded: 0,
+    borderRadius: 0,
     bg: 'white',
     py: 'lg',
     px: '2xl',
@@ -46,7 +46,7 @@ const DropdownOption: React.FunctionComponent<DropdownOptionProps> = (
 
 // DropdownOption.defaultProps = {
 //   onSelect: () => {},
-//   rounded: 0,
+//   borderRadius: 0,
 //   bg: 'white',
 //   p: 0,
 //   color: 'black',

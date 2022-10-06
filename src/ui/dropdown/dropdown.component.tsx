@@ -20,7 +20,7 @@ const Dropdown = React.forwardRef<DropdownRef, DropdownProps>(
   (incomingProps, ref) => {
     const props = useDefaultProps('Dropdown', incomingProps, {
       bg: 'white',
-      rounded: 'none',
+      borderRadius: 'none',
       showSwipeIndicator: Platform.OS === 'web' ? false : true,
       backdropColor: 'gray900',
       backdropOpacity: 0.5,
@@ -43,7 +43,7 @@ const Dropdown = React.forwardRef<DropdownRef, DropdownProps>(
       paddingTop,
       paddingBottom,
       paddingLeft,
-      rounded,
+      borderRadius,
       roundedTop,
       roundedRight,
       roundedBottom,
@@ -119,7 +119,7 @@ const Dropdown = React.forwardRef<DropdownRef, DropdownProps>(
         showSwipeIndicator && (
           <Div
             height={7}
-            rounded="xl"
+            borderRadius="xl"
             width={40}
             bg="gray200"
             style={computedStyle.indicator}
@@ -172,7 +172,7 @@ Dropdown.Option = DropdownOption;
 
 // Dropdown.defaultProps = {
 //   bg: 'white',
-//   rounded: 'none',
+//   borderRadius: 'none',
 //   showSwipeIndicator: Platform.OS === 'web' ? false : true,
 //   backdropColor: 'gray900',
 //   backdropOpacity: 0.5,

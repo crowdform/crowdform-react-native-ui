@@ -363,7 +363,7 @@ const Fab = withDefaultProps<FabProps>(FabBase, 'Fab', {
   right: 30,
   icon: 'plus',
   activeIcon: 'close',
-  rounded: 'circle',
+  borderRadius: 'circle',
   bg: 'blue500',
   useNativeDriver: false,
   shadow: 'lg',

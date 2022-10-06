@@ -14,7 +14,7 @@ const Div: React.FunctionComponent<DivProps> = (incomingProps) => {
     bg: 'transparent',
     flexDirection: 'column',
     flexWrap: 'nowrap',
-    rounded: 'none',
+    borderRadius: 'none',
     shadow: 'none',
     position: 'relative',
     bgMode: 'cover',
@@ -46,7 +46,7 @@ const Div: React.FunctionComponent<DivProps> = (incomingProps) => {
     style,
     flexDirection,
     row,
-    rounded,
+    borderRadius,
     roundedTop,
     roundedRight,
     roundedBottom,
@@ -91,7 +91,6 @@ const Div: React.FunctionComponent<DivProps> = (incomingProps) => {
         style={computedStyle.div}
         resizeMode={props.bgMode}
         imageStyle={computedStyle.image}
-        {...rest}
       >
         {children}
       </RNImageBackground>

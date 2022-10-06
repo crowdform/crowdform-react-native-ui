@@ -13,7 +13,7 @@ const SelectOption: React.FunctionComponent<SelectOptionProps> = (
 ) => {
   const props = useDefaultProps('SelectOption', incomingProps, {
     onSelect: () => {},
-    rounded: 0,
+    borderRadius: 0,
     bg: 'white',
     px: 'xl',
     py: 'lg',
@@ -91,7 +91,7 @@ const SelectOption: React.FunctionComponent<SelectOptionProps> = (
 
 // Option.defaultProps = {
 //   onSelect: () => {},
-//   rounded: 0,
+//   borderRadius: 0,
 //   bg: 'white',
 //   p: 0,
 //   color: 'black',

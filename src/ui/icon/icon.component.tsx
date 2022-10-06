@@ -37,7 +37,7 @@ const Icon: React.FunctionComponent<IconProps> = (incomingProps) => {
     right,
     name,
     color,
-    rounded,
+    borderRadius,
     maxHeight,
     maxWidth,
     minWidth,

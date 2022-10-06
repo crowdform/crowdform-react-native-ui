@@ -162,11 +162,6 @@ export const createBorderRadiusStyles = (
     borderTopRightRadius: 'borderTopRightRadius',
     borderBottomLeftRadius: 'borderBottomLeftRadius',
     borderBottomRightRadius: 'borderBottomRightRadius',
-    rounded: 'borderRadius',
-    roundedTopLeft: 'borderTopLeftRadius',
-    roundedTopRight: 'borderTopRightRadius',
-    roundedBottomLeft: 'borderBottomLeftRadius',
-    roundedBottomRight: 'borderBottomRightRadius',
     roundedTop: ['borderTopLeftRadius', 'borderTopRightRadius'],
     roundedLeft: ['borderTopLeftRadius', 'borderBottomLeftRadius'],
     roundedRight: ['borderTopRightRadius', 'borderBottomRightRadius'],
@@ -184,7 +179,7 @@ export const createBorderRadiusStyles = (
           computedStyle[property] = getThemeProperty(theme, props[propKey]);
         });
       } else {
-        computedStyle[styleProperty] = props[propKey]; //getThemeProperty(theme, props[propKey]);
+        computedStyle[styleProperty] = getThemeProperty(theme, props[propKey]);
       }
     }
   });

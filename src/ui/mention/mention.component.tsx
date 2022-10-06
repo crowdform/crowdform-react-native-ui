@@ -118,7 +118,7 @@ class MentionBase extends React.Component<
       borderRightWidth,
       borderBottomWidth,
       borderTopWidth,
-      rounded,
+      borderRadius,
       roundedTop,
       roundedRight,
       roundedBottom,
@@ -171,7 +171,7 @@ class MentionBase extends React.Component<
 
 const Mention = withDefaultProps<MentionProps>(MentionBase, 'Mention', {
   bg: 'white',
-  rounded: 'md',
+  borderRadius: 'md',
   borderColor: 'gray200',
   borderWidth: 1,
   horizontal: false,
