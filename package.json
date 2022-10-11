@@ -90,6 +90,9 @@
       "<rootDir>/docs/"
     ]
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "release-it": {
     "git": {
       "requireUpstream": false,
