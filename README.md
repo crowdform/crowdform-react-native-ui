@@ -4,9 +4,11 @@
   </a>
 </p>
 
-<h1 align="center">Magnus UI</h1>
+<h1 align="center">@crowdform/react-native-ui</h1>
 
 <div align="center">
+
+Published at https://www.npmjs.com/package/@crowdform/react-native-ui
 
 A Utility-First React Native UI Framework
 
@@ -45,11 +47,11 @@ A Utility-First React Native UI Framework
 ## 📦 Installation
 
 ```bash
-npm install react-native-magnus
+npm install @crowdform/react-native-ui
 ```
 
 ```bash
-yarn add react-native-magnus
+yarn add @crowdform/react-native-ui
 ```
 
 ## 🔨 Usage
